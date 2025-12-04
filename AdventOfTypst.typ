@@ -43,3 +43,33 @@ Input: #day2.partB(read("day2.txt"))
 == Code
 
 #raw(read("day2.typ"), block: true, lang: "typ")
+
+= Day 3
+
+#import "day3.typ"
+
+== Part A
+
+Example: #day3.partA(
+  "987654321111111
+811111111111119
+234234234234278
+818181911112111",
+)
+
+Input: #day3.partA(read("day3.txt"))
+
+== Part B
+
+Example: #day3.partB(
+  "987654321111111
+811111111111119
+234234234234278
+818181911112111",
+)
+
+Input: #day3.partB(read("day3.txt"))
+
+== Code
+
+#raw(read("day3.typ"), block: true, lang: "typ")
