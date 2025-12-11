@@ -40,6 +40,10 @@ Example: #day2.partB("11-22,95-115,998-1012,1188511880-1188511890,222220-222224,
 
 Input: #day2.partB(read("day2.txt"))
 
+#day2.partB("10-100000000000")
+
+#day2.partition((2, 10000))
+
 == Code
 
 #raw(read("day2.typ"), block: true, lang: "typ")
@@ -50,26 +54,61 @@ Input: #day2.partB(read("day2.txt"))
 
 == Part A
 
-Example: #day3.partA(
-  "987654321111111
+Example: #day3.partA("987654321111111
 811111111111119
 234234234234278
-818181911112111",
-)
+818181911112111")
 
 Input: #day3.partA(read("day3.txt"))
 
 == Part B
 
-Example: #day3.partB(
-  "987654321111111
+Example: #day3.partB("987654321111111
 811111111111119
 234234234234278
-818181911112111",
-)
+818181911112111")
 
 Input: #day3.partB(read("day3.txt"))
 
 == Code
 
 #raw(read("day3.typ"), block: true, lang: "typ")
+
+= Day 4
+
+#import "day4.typ"
+
+== Part A
+
+Example: #day4.partA("..@@.@@@@.
+@@@.@.@.@@
+@@@@@.@.@@
+@.@@@@..@.
+@@.@@@@.@@
+.@@@@@@@.@
+.@.@.@.@@@
+@.@@@.@@@@
+.@@@@@@@@.
+@.@.@@@.@.")
+
+Input: #day4.partA(read("day4.txt"))
+
+== Part B
+
+Example: #day4.partB("..@@.@@@@.
+@@@.@.@.@@
+@@@@@.@.@@
+@.@@@@..@.
+@@.@@@@.@@
+.@@@@@@@.@
+.@.@.@.@@@
+@.@@@.@@@@
+.@@@@@@@@.
+@.@.@@@.@.")
+
+Input: #day4.partB(read("day4.txt"))
+
+== Code
+
+#raw(read("day4.typ"), block: true, lang: "typ")
+
