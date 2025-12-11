@@ -151,3 +151,29 @@ Input: #day5.partB(read("day5.txt"))
 == Code
 
 #raw(read("day5.typ"), block: true, lang: "typ")
+
+= Day 6
+
+#import "day6.typ"
+
+== Part A
+
+Example: #day6.partA("123 328  51 64
+ 45 64  387 23
+  6 98  215 314
+*   +   *   +")
+
+Input: #day6.partA(read("day6.txt"))
+
+== Part B
+
+Example: #day6.partB("123 328  51 64
+ 45 64  387 23
+  6 98  215 314
+*   +   *   +")
+
+Input: #day6.partB(read("day6.txt"))
+
+== Code
+
+#raw(read("day6.typ"), block: true, lang: "typ")
